@@ -1,0 +1,173 @@
+/*Configurações gerais*/
+
+body {
+  margin-top: 20px;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+}
+
+img {
+  display: block;
+  width: 510px;
+  height: 270px;
+}
+
+/*Container*/
+.container {
+  margin: 0 auto;
+  width: 1095px;
+  height: 590px;
+  background: rgb(241, 238, 238);
+}
+
+/*Box-info*/
+
+.box-info {
+  width: 100%;
+  height: 65px;
+  background: #fff;
+}
+
+/*Box01*/
+
+.box-1 {
+  width: 510px;
+  height: 460px;
+  background: #fff;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.box-1 .preco {
+  width: 105px;
+  font-size: 16px;
+  background-color: #fff;
+  float: left;
+  margin-left: 40px;
+  margin-top: -15px;
+  color: #14d886;
+  padding-top: 3px;
+}
+.status-1 {
+  display: block;
+  width: 120px;
+  height: 35px;
+  line-height: 2px;
+  padding-bottom: 5px;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 340px;
+  background-color: #14d88628;
+  border: 3px solid #14d88600;
+  border-radius: 5px;
+  color: #14d886;
+}
+
+/*Box02*/
+
+.box-2 {
+  width: 510px;
+  height: 460px;
+  background: #fff;
+  float: left;
+  margin-top: 20px;
+  margin-left: 35px;
+}
+
+.box-2 .preco {
+  width: 105px;
+  font-size: 16px;
+  background-color: #fff;
+  float: left;
+  margin-left: 40px;
+  margin-top: -15px;
+  color: #14d886;
+  padding-top: 3px;
+}
+.status-2 {
+  display: block;
+  width: 170px;
+  height: 35px;
+  line-height: 2px;
+  padding-bottom: 5px;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 300px;
+  background-color: rgba(240, 191, 32, 0.24);
+  border: 3px solid rgba(240, 191, 32, 0);
+  border-radius: 5px;
+  color: rgb(240, 191, 32);
+}
+
+.box-1,
+.box-2,
+img {
+  border-radius: 10px 10px 0 0;
+}
+
+/*Descricao*/
+
+.descricao {
+  width: 510px;
+  height: 105px;
+  float: left;
+  background-color: #fff;
+  border-bottom: 3px solid rgb(241, 238, 238);
+}
+
+.descricao-info {
+  display: block;
+  margin-left: 40px;
+  margin-top: -25px;
+  padding-bottom: 20px;
+}
+.descricao-info h2 {
+  font-size: 25px;
+}
+
+.descricao-info p {
+  color: rgba(7, 7, 7, 0.548);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/*Footer*/
+
+footer {
+  width: 510px;
+  height: 85px;
+  display: block;
+  background-color: #fff;
+  clear: both;
+  border-radius: 0 0 10px 10px;
+}
+
+footer ul li {
+  display: inline-block;
+  letter-spacing: 13px;
+  margin-left: 15px;
+}
+
+footer ul {
+  margin-left: 200px;
+  padding-top: 5px;
+}
+
+footer ul li p {
+  font-size: 22px;
+}
+
+.medida {
+  font-size: 20px;
+  float: left;
+  margin-left: 40px;
+  padding-top: 5px;
+}
+.fa-bath,
+.fa-toilet,
+.fa-bed,
+.fa-square {
+  color: #14d886;
+  font-size: 25px;
+}
