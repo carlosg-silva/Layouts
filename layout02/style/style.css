@@ -73,3 +73,34 @@
   margin: 70px 380px;
   color: #fff;
 }
+
+.call-to-action {
+  text-align: center;
+}
+
+.call-to-action ul li {
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 10px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background: #2b3132;
+}
+
+.call-to-action ul li:hover {
+  background-color: #fff;
+}
+
+.call-to-action ul li a:hover {
+  color: #2b3132;
+}
+
+.call-to-action ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  padding: 15px 45px;
+  color: #fff;
+  line-height: 50px;
+}
