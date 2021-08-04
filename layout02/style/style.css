@@ -143,29 +143,30 @@
 
 .container {
   margin: 0 auto;
-  width: 1000px;
+  padding-bottom: 25px;
+  width: 1046px;
   height: 400px;
 }
 
 .container .box01 {
   float: left;
-  margin-right: 20px;
+  margin-right: 25px;
   background: brown;
-  width: 320px;
+  width: 332px;
   height: 100%;
 }
 
 .container .box02 {
   float: left;
-  margin-right: 20px;
+  margin-right: 25px;
   background: brown;
-  width: 320px;
+  width: 332px;
   height: 100%;
 }
 
 .container .box03 {
   float: left;
   background: brown;
-  width: 320px;
+  width: 332px;
   height: 100%;
 }
