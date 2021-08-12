@@ -78,12 +78,12 @@
 }
 
 .call-to-action ul li {
-  width: 200px;
+  width: 199px;
   height: 50px;
   display: inline-block;
   font-size: 16px;
   margin: 0 10px;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
   border-radius: 5px;
   background: #2b3132;
 }
@@ -96,7 +96,7 @@
   color: #2b3132;
 }
 
-.call-to-action ul li a {
+.call-to-action a {
   text-decoration: none;
   font-weight: bold;
   padding: 15px 45px;
@@ -120,6 +120,7 @@
 .skills {
   background-color: #eae8e9;
   padding-top: 30px;
+  padding-bottom: 70px;
 }
 
 .box-skills {
@@ -148,15 +149,8 @@
   height: 400px;
 }
 
-.container .box01 {
-  float: left;
-  margin-right: 25px;
-  background: brown;
-  width: 332px;
-  height: 100%;
-}
-
-.container .box02 {
+.container .box01,
+.box02 {
   float: left;
   margin-right: 25px;
   background: brown;
@@ -169,4 +163,30 @@
   background: brown;
   width: 332px;
   height: 100%;
+}
+
+.container .typography {
+  background: #e55d5d;
+}
+.container .responsive {
+  background: #6fc0d1;
+}
+.container .ux-design {
+  background: #7dc691;
+}
+.container .interaction {
+  background: #dfbd42;
+}
+.container .front {
+  background: #a66441;
+}
+.container .wordpress {
+  background: #de6bae;
+}
+
+.box_shadow {
+  width: 100%;
+  height: 50%;
+  margin-top: 60%;
+  background-color: rgba(0, 0, 0, 0.219);
 }
