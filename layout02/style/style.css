@@ -40,7 +40,7 @@
 
 .header a {
   text-decoration: none;
-  color: #2b3132;
+  color: #000;
   padding: 10px 10px;
 }
 
@@ -110,6 +110,12 @@
 
 /*Skills*/
 
+.skills {
+  background-color: #eae8e9;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
 .skills h1 {
   font-size: 50px;
   color: #000;
@@ -117,10 +123,14 @@
   margin: 25px 0 0 150px;
 }
 
-.skills {
-  background-color: #eae8e9;
-  padding-top: 30px;
-  padding-bottom: 70px;
+.skills a {
+  float: right;
+  margin: 50px 150px 0 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #2b3132;
+  text-decoration: none;
+  letter-spacing: 0.1em;
 }
 
 .skills a:hover {
@@ -134,16 +144,6 @@
 
 .container .box-skills h2 {
   color: #fff;
-}
-
-.skills a {
-  float: right;
-  margin: 50px 150px 0 0;
-  font-size: 20px;
-  font-weight: bold;
-  color: #2b3132;
-  text-decoration: none;
-  letter-spacing: 0.1em;
 }
 
 .container {
@@ -169,7 +169,7 @@
   height: 100%;
 }
 
-.container h3 i {
+.container i {
   position: absolute;
   margin: 60px 128px;
   font-size: 80px;
@@ -208,4 +208,38 @@
 }
 .box_shadow p {
   padding: 20px 20px 0 20px;
+}
+
+/*Recent Works*/
+
+.recent-work {
+  background-color: #2b3132;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+
+.recent-work h1 {
+  font-size: 50px;
+  color: #fff;
+  float: left;
+  margin: 25px 0 0 150px;
+}
+
+.box-work {
+  width: 100%;
+  height: 130px;
+}
+
+.recent-work a {
+  float: right;
+  margin: 50px 150px 0 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+
+.recent-work a:hover {
+  color: #000;
 }
