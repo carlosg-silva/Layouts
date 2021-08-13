@@ -9,6 +9,16 @@ img {
   margin-bottom: -184px;
 }
 
+.work01 img {
+  width: 68%;
+  padding-bottom: 3px;
+  margin-left: 52px;
+}
+
+.work03 img {
+  padding-top: 15px;
+}
+
 /*Header*/
 
 .header {
@@ -224,6 +234,10 @@ img {
   margin-bottom: 20px;
 }
 
+.box_shadow h2 a:hover {
+  color: #fff;
+}
+
 /*Recent Works*/
 
 .recent-work {
@@ -252,7 +266,7 @@ img {
 .recent-work a:hover {
   color: #000;
 }
-.container .work3 {
+.container .work03 {
   background: #fff;
 }
 .work02 {
