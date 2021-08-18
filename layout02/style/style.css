@@ -289,3 +289,61 @@ img {
 .work p {
   color: #000;
 }
+
+/*Claims*/
+
+.claims {
+  background-color: #eae8e9;
+  padding-top: 30px;
+  padding-bottom: 70px;
+}
+.box-claims {
+  width: 100%;
+  height: 130px;
+}
+.box-claims h1 {
+  font-size: 50px;
+  color: #000;
+  float: left;
+  margin: 25px 0 0 150px;
+}
+.box-claims a {
+  float: right;
+  margin: 50px 150px 0 0;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+
+.box-claims a:hover {
+  color: #202020a8;
+}
+
+.claims-cards p {
+  display: inline-block;
+  margin-top: -25px;
+}
+
+.claims-cards .box_shadow a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.claims-cards .box_shadow a:hover {
+  color: #000;
+}
+
+.claims-cards .box01,
+.box02 {
+  background-color: #fff;
+}
+
+.claims-cards .box03 {
+  background-color: #fff;
+}
+
+.claims-cards .box_shadow {
+  background-color: #2b3132;
+}
