@@ -347,3 +347,9 @@ img {
 .claims-cards .box_shadow {
   background-color: #2b3132;
 }
+
+.claims-cards i {
+  position: absolute;
+  color: #2b3132;
+  margin: 60px 60px 0px 118px;
+}
