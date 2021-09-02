@@ -9,6 +9,10 @@ img {
   margin-bottom: -184px;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 .work01 img {
   width: 68%;
   padding-bottom: 3px;
@@ -423,7 +427,13 @@ img {
   background-color: #2b3132;
 }
 
+/*Footer*/
+
 footer {
   float: left;
+  margin-top: 100px;
+  color: #d8d8d836;
   font-size: 15px;
+  text-align: center;
+  width: 100%;
 }
