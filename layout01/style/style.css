@@ -41,15 +41,15 @@ img {
 
 .box-kentucky .preco {
   width: 105px;
-  font-size: 16px;
+  font-size: 25px;
   background-color: #fff;
   float: left;
   margin-left: 40px;
-  margin-top: -15px;
+  margin-top: 5px;
   color: #14d886;
   padding-top: 3px;
 }
-.status-1 {
+.status-kentucky {
   display: block;
   width: 120px;
   height: 35px;
@@ -66,7 +66,7 @@ img {
 
 /*Box02*/
 
-.box-2 {
+.box-alaska {
   width: 510px;
   height: 460px;
   background: #fff;
@@ -75,17 +75,17 @@ img {
   margin-left: 35px;
 }
 
-.box-2 .preco {
+.box-alaska .preco {
   width: 105px;
-  font-size: 16px;
+  font-size: 25px;
   background-color: #fff;
   float: left;
   margin-left: 40px;
-  margin-top: -15px;
+  margin-top: 5px;
   color: #14d886;
   padding-top: 3px;
 }
-.status-2 {
+.status-alaska {
   display: block;
   width: 170px;
   height: 35px;
