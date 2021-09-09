@@ -30,7 +30,7 @@ img {
 
 /*Box01*/
 
-.box-1 {
+.box-kentucky {
   width: 510px;
   height: 460px;
   background: #fff;
@@ -39,7 +39,7 @@ img {
   margin-left: 20px;
 }
 
-.box-1 .preco {
+.box-kentucky .preco {
   width: 105px;
   font-size: 16px;
   background-color: #fff;
@@ -100,7 +100,7 @@ img {
   color: rgb(240, 191, 32);
 }
 
-.box-1,
+.box-kentucky,
 .box-2,
 img {
   border-radius: 10px 10px 0 0;
